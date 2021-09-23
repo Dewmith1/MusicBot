@@ -215,7 +215,8 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm a Song Downloader Bot. A bot Maded by @Imkashyapaa 👻.
+               text="""<b>https://telegra.ph/file/73422b014dca50b1023e6.jpg
+               👋🏻Hey There, I'm a Song Downloader Bot. A bot Maded by @Imkashyapaa 👻.
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
